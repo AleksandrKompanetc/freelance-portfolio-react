@@ -29,19 +29,16 @@ const projects = [
     title: 'Dating app',
     skills: 'React Native',
     img: project04,
-    gitHubLink: 'https://github.com',
   },
   {
     title: 'Landing',
     skills: 'HTML, CSS, JS',
     img: project05,
-    gitHubLink: 'https://github.com',
   },
   {
     title: 'Gaming community',
     skills: 'React, PHP, MySQL',
     img: project06,
-    gitHubLink: 'https://github.com',
   },
 ]
 
