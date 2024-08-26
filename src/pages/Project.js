@@ -1,3 +1,5 @@
+import BtnGitHub from "../components/btnGitHub/BtnGitHub";
+
 const Project = () => {
   return (
     <main className="section">
@@ -8,10 +10,7 @@ const Project = () => {
             <div className="project-details__desc">
               <p>Skills: React, Node.js MongoDB</p>
             </div>
-            <a href="#!" className="btn-outline">
-              <img src="./img/icons/github-dark.png" alt="" />
-                GitHub repo
-            </a>
+            <BtnGitHub link='https://github.com' />
         </div>
       </div>
     </main>
