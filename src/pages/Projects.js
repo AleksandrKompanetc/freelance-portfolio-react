@@ -1,10 +1,5 @@
 import Project from '../components/project/Project';
-import project01 from './../img/projects/1.jpg';
-import project02 from './../img/projects/2.jpg';
-import project03 from './../img/projects/3.jpg';
-import project04 from './../img/projects/4.jpg';
-import project05 from './../img/projects/5.jpg';
-import project06 from './../img/projects/6.jpg';
+import { projects } from '../helpers/projectsList';
 
 const Projects = () => {
   return (
@@ -12,7 +7,13 @@ const Projects = () => {
         <div className="container">
           <h2 className="title-1">Projects</h2>
           <ul className="projects">
-            <Project />
+            {projects.map((project, index) => {
+              return <Project 
+                        key={index} 
+                        title={project.title} 
+                        img={project.img} 
+                        />
+            })}
           </ul>
         </div>
       </main>

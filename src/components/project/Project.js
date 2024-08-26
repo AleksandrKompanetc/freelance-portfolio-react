@@ -1,11 +1,11 @@
 import './style.css';
 
-const Project = () => {
+const Project = ({title, img}) => {
   return (
     <li className="project">
       <a href="./project-page.html">
-        <img src={project01} width="370px" alt="" className="project__img" />
-        <h3 className="project__title">Gaming streaming portal</h3>
+        <img src={img} width="370px" alt={title} className="project__img" />
+        <h3 className="project__title">{title}</h3>
       </a>
     </li>
   )

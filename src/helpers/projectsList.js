@@ -1,9 +1,9 @@
-import project01 from './../../img/projects/1.jpg';
-import project02 from './../../img/projects/2.jpg';
-import project03 from './../../img/projects/3.jpg';
-import project04 from './../../img/projects/4.jpg';
-import project05 from './../../img/projects/5.jpg';
-import project06 from './../../img/projects/6.jpg';
+import project01 from './../img/projects/1.jpg'
+import project02 from './../img/projects/2.jpg';
+import project03 from './../img/projects/3.jpg';
+import project04 from './../img/projects/4.jpg';
+import project05 from './../img/projects/5.jpg';
+import project06 from './../img/projects/6.jpg';
 
 
 const projects = [
@@ -44,3 +44,5 @@ const projects = [
     gitHubLink: 'https://github.com',
   },
 ]
+
+export {projects};
